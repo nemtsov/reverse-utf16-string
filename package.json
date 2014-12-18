@@ -1,0 +1,24 @@
+{
+  "name": "reverse-utf16-string",
+  "version": "1.0.0",
+  "description": "Reverse UTF-16 string",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nemtsov/reverse-utf16-string.git"
+  },
+  "keywords": [
+    "reverse",
+    "utf16",
+    "string"
+  ],
+  "author": "Yuriy Nemtsov <nemtsov@gmail.com> (http://yuriynemtsov.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nemtsov/reverse-utf16-string/issues"
+  },
+  "homepage": "https://github.com/nemtsov/reverse-utf16-string"
+}
