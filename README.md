@@ -2,7 +2,7 @@
 
 Optimized reverse-string algorithm, which only
 needs to traverse 1/2 of the given string, and
-takes care of surrogate pairs.
+takes care of UTF-16 surrogate pairs.
 
 ## Usage
 
