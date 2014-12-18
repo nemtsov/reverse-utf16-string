@@ -1,0 +1,23 @@
+{
+  "name": "reverse-utf16-string",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/nemtsov/reverse-utf16-string",
+  "authors": [
+    "Yuriy Nemtsov <nemtsov@gmail.com>"
+  ],
+  "description": "Reverse UTF-16 String",
+  "keywords": [
+    "reverse",
+    "utf16",
+    "string"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
