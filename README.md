@@ -1,4 +1,4 @@
-# Reverse UTF-16 Strinage:
+# Reverse UTF-16 String
 
 Optimized reverse-string algorithm, which only
 needs to traverse 1/2 of the given string, and
