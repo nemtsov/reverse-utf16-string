@@ -9,7 +9,7 @@ takes care of UTF-16 surrogate pairs.
 ```javascript
 var reverse = require('reverse-utf16-string');
 
-var reversed = reverse('abcd'); // 'dcba'
+var reversed = reverse('ab𝌄cd'); // 'dc𝌄ba'
 ```
 
 ## License
