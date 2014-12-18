@@ -1,6 +1,6 @@
 {
   "name": "reverse-utf16-string",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Reverse UTF-16 string",
   "main": "index.js",
   "scripts": {

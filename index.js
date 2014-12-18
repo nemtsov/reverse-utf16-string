@@ -13,11 +13,13 @@ module.exports = function reverse(str) {
 
   for (i = 0, j = str.length - 1; j >= mid; i++, j--) {
     c1 = str[i];
-    out[i] = str[j];
+    c2 = str[j];
+    out[i] = c2;
     out[j] = c1;
     if (!hasSurrogate) {
-      hasSurrogate = (c1 >= MIN_HIGH_SURROGATE) &&
-        (c1 <= MAX_LOW_SURROGATE);
+      hasSurrogate =
+        (c1 >= MIN_HIGH_SURROGATE) && (c1 <= MAX_LOW_SURROGATE) ||
+        (c2 >= MIN_HIGH_SURROGATE) && (c2 <= MAX_LOW_SURROGATE);
     }
   }
 
